@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: azure;
+}
+
+
+.logo {
+    font-size: 7px;
+}
+
+
+.title {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    left: 5px;
+    color: azure;
+}
+
+.btn1 {
+    background-color: rgb(255, 98, 0);
+    color: azure;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.container1 {
+    background-color: rgb(28, 28, 28);
+    border-radius: 20px;
+}
+
+.orange {
+    color: rgb(255, 98, 0);
+}
+
+.fon {
+    font-size: 12px;
+}
+
+.vr {
+    height: 11rem;
+}
+
+#years {
+    font-size: 4rem;
+}
