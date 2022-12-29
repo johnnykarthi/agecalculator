@@ -1,23 +1,16 @@
 
 
-var btn = document.querySelector('#cal');
+
+setInterval(calculate,1000);
 
 
-
-btn.addEventListener("click", function () {
+function calculate() {
 
     var dob = document.querySelector("#dob").value;
 
     var current_date = document.querySelector("#cur-date").value;
 
-    if (dob == '') {
-        alert("Please select the Date of Birth!");
-    }
-    else if(current_date == '')
-    {
-        alert("Please select the Today's Date!");
-    }
-    else {
+    if (dob != '' && current_date != '' ){
 
         var dob_year = parseInt(dob.substring(0, 4));
         var dob_month = parseInt(dob.substring(5, 7));
@@ -91,7 +84,4 @@ btn.addEventListener("click", function () {
         document.querySelector(".Smin").innerHTML = Math.floor(timediff / minute);
     }
 
-});
-
-
-
+}
